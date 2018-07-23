@@ -1,0 +1,69 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup, menu,
+nav, output, ruby, section, summary, time, mark, audio, video  {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+:root {
+    --app-nav-bar-bg-color :  #330c2f;
+    --app-nav-bar-font-color : #e7dfc6;
+    --app-result-bg-color : #BC96E6;
+    --app-result-heading-color : #5D576B;
+    --app-white-background : #ffffff;
+    --app-pink-color : #f7567c;
+    --app-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.app_font, .app_font_18  {
+    font-family: var(--app-font-family);
+}
+
+.app_font_color_pink {
+    color: var(--app-pink-color);
+}
+
+.app_font_18 {
+    font-size: 16px;
+    font-weight: 200;
+}
+.align_left {
+    float: left;
+}
+.align_right {
+    float: right;
+}
+
+.width_50 {
+    width: 50%;
+}
+
+.margin_5 {
+    margin: 5%;
+}
+
+.margin_3 {
+    margin: 3%;
+}
+
+.flex {
+    display: flex;
+}
+
+.margin_bottom_10  {
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .flex {
+        display: block;
+    }
+}
